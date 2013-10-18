@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 /Debug
+=======
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+>>>>>>> e61d2966a12b616824c2aae0a15de2536c7ddbf8
