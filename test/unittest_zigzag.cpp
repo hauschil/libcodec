@@ -17,8 +17,8 @@ int unittest_zigzag() {
 
 	{
 		for (val = -10000; val < 10000; val++) {
-			zig_zag_val = zig_zag_encode(val);
-			recovered = zig_zag_decode(zig_zag_val);
+			zig_zag_encode(val,&zig_zag_val);
+			zig_zag_decode(zig_zag_val, &recovered);
 			//clog << val << " " << zig_zag_val << " " << recovered << endl;
 			assert(val == recovered);
 		}
